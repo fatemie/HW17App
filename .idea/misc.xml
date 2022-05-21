@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/drawable/circle.xml" value="0.1145" />
         <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/layout/dialog_layout.xml" value="0.103125" />
-        <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/layout/fragment_movie_detail.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/layout/fragment_movie_detail.xml" value="0.16" />
         <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/layout/fragment_movie_list.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/fateme/AndroidStudioProjects/HW17App2/app/src/main/res/layout/recycler_item.xml" value="0.18802083333333333" />
       </map>

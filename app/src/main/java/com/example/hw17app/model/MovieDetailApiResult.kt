@@ -20,14 +20,14 @@ data class MovieDetailApiResult(
     //val homepage: String,
     @Json(name = "id")
     val id: Int,
-    @Json(name = "imdb_id")
-    val imdbId: String,
+    //@Json(name = "imdb_id")
+    //val imdbId: String,
     @Json(name = "original_language")
     val originalLanguage: String,
-    @Json(name = "original_title")
-    val originalTitle: String,
-    //@Json(name = "overview")
-    //val overview: String,
+    //@Json(name = "original_title")
+    //val originalTitle: String,
+    @Json(name = "overview")
+    val overview: String,
     //@Json(name = "popularity")
     //val popularity: Double,
     @Json(name = "poster_path")
@@ -55,5 +55,9 @@ data class MovieDetailApiResult(
     @Json(name = "vote_average")
     val voteAverage: Double,
     @Json(name = "vote_count")
-    val voteCount: Int
+    val voteCount: Int,
+    val voteCountStr: String = voteCount.toString(),
+    val voteAverageStr: String = voteAverage.toString(),
+    val runtimeStr: String = runtime.toString()
+
 )
